@@ -1,0 +1,78 @@
+#banner .item__slide {
+  display: flex;
+}
+#banner .banner__slide {
+  position: relative;
+}
+#banner .banner__slide a {
+  text-decoration: none;
+}
+#banner .banner__slide .item__slide {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.6s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#banner .banner__slide .act-slide {
+  position: absolute;
+  top: 0;
+  display: none;
+  background: #dcdde1;
+  border: none;
+  outline: 0;
+  padding: 8px 12px;
+}
+#banner .banner__slide:hover .act-slide {
+  display: block;
+}
+#banner .banner__slide .right {
+  right: 0;
+}
+#banner .banner__slide .banner__image {
+  flex: 3;
+  display: flex;
+  position: relative;
+}
+#banner .banner__slide .banner__image img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 350px;
+}
+#banner .banner__slide .banner__fadeBottom {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20rem;
+  height: 100%;
+  z-index: 1;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(12, 12, 12, 0.61),
+    #000000
+  );
+  /*background: darkblue;*/
+}
+#banner .banner__slide .banner__description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 8px;
+  justify-content: flex-end;
+  background: #000000;
+  color: #ffffff;
+}
+#banner .banner__slide .banner__description .title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #ffffff;
+}

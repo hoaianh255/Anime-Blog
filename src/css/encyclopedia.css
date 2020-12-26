@@ -1,0 +1,44 @@
+#encyclopedia .title {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#encyclopedia input[name="search"] {
+  outline: 0;
+  border: none;
+  padding: 5px 8px;
+  padding-right: 30px;
+}
+#encyclopedia #formSearch {
+  position: relative;
+  width: 80%;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#encyclopedia button {
+  color: #cccccc;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.2rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: 0;
+}
+#encyclopedia .encyclopedia_nav {
+  padding: 0;
+  margin: 0;
+}
+#encyclopedia .encyclopedia_nav li {
+  display: block;
+  padding: 5px 3px;
+}
+#encyclopedia .encyclopedia_nav li a {
+  color: #ffffff;
+  font-size: 1rem;
+}
+/* #encyclopedia .block-child {
+  margin-top: 10px;
+} */

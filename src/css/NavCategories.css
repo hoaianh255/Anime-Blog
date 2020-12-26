@@ -1,0 +1,71 @@
+#nav-categories {
+  background: #eeeeff;
+}
+#nav-categories > div.filters {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 1.5rem;
+  padding-left: 4px;
+}
+#nav-categories .filters .topics {
+  display: inline-block;
+}
+#nav-categories .filters span[data-filter] {
+  display: inline-block;
+  text-decoration: none;
+  color: #27ae60;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 0.9rem;
+}
+#nav-categories .filters span[data-filter].selected {
+  font-weight: 700;
+}
+#nav-categories .view-mode {
+  display: flex;
+  padding: 5px 0;
+  height: 100%;
+  line-height: 1.5em;
+  justify-content: flex-end;
+  align-items: center;
+}
+#nav-categories .view-mode > div {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 2px;
+}
+#nav-categories .view-mode > div.selected {
+  border: 2px solid #9c0;
+  background-clip: padding-box;
+}
+#nav-categories .view-mode .compact-list-text {
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/toolbar.png);
+  background-position: -676px -3px;
+  background-repeat: no-repeat;
+}
+#nav-categories .view-mode .list-text {
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/toolbar.png);
+  background-position: -644px -3px;
+  background-repeat: no-repeat;
+}
+#nav-categories .view-mode .grid-text {
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/toolbar.png);
+  background-position: -580px -3px;
+  background-repeat: no-repeat;
+}
+#nav-categories .view-mode .list-thumb {
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/toolbar.png);
+  background-position: -612px -3px;
+  background-repeat: no-repeat;
+}
