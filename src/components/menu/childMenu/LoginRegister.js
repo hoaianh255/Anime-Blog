@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TwitterLogin from "react-twitter-login";
 import GoogleLogin from 'react-google-login';
 const LoginRegister = props => {
   return (

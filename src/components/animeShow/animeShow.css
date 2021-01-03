@@ -1,0 +1,44 @@
+
+#animeShow .row{
+    padding: 0 15px !important;
+}
+#animeShow .wrap-anime .time-title{
+    color: #006699;
+    border-top: 3px solid #B5CBDD;
+    font-size: 1.6rem;
+    margin: 20px 0;
+    padding: 0;
+    font-weight: 700;
+}
+#animeShow .wrap-anime .block-anime{
+    max-height: 410px;
+    padding: 4px 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#animeShow .wrap-anime .block-anime .img-anime img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+}
+#animeShow .wrap-anime .block-anime .description-anime h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#animeShow .wrap-anime .block-anime .description-anime h2 a{
+    color: #006699;
+}
+#animeShow .wrap-anime .block-anime .description-anime span{
+    color: #666666;
+    font-size: 0.8rem;
+}
+#animeShow .wrap-anime .block-anime .description-anime span>.category{
+    padding: 5px 8px;
+    background: #0e90ff;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+#animeShow .wrap-anime .block-anime .description-anime .details{
+    font-size: 1rem;
+}

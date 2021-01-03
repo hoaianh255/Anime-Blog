@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import './encyclopedia.css';
 
-const Forum = (props) => {
+const MyAnn = (props) => {
   return (
     <>
       <div className="row" id="encyclopedia">
@@ -161,6 +162,6 @@ const Forum = (props) => {
   );
 };
 
-Forum.propTypes = {};
+MyAnn.propTypes = {};
 
-export default Forum;
+export default MyAnn;

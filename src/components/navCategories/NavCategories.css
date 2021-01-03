@@ -1,5 +1,6 @@
 #nav-categories {
   background: #eeeeff;
+  margin-bottom: 10px;
 }
 #nav-categories > div.filters {
   display: table-cell;
@@ -44,28 +45,28 @@
 #nav-categories .view-mode .compact-list-text {
   width: 28px;
   height: 28px;
-  background-image: url(../img/toolbar.png);
+  background-image: url(../../img/toolbar.png);
   background-position: -676px -3px;
   background-repeat: no-repeat;
 }
 #nav-categories .view-mode .list-text {
   width: 28px;
   height: 28px;
-  background-image: url(../img/toolbar.png);
+  background-image: url(../../img/toolbar.png);
   background-position: -644px -3px;
   background-repeat: no-repeat;
 }
 #nav-categories .view-mode .grid-text {
   width: 28px;
   height: 28px;
-  background-image: url(../img/toolbar.png);
+  background-image: url(../../img/toolbar.png);
   background-position: -580px -3px;
   background-repeat: no-repeat;
 }
 #nav-categories .view-mode .list-thumb {
   width: 28px;
   height: 28px;
-  background-image: url(../img/toolbar.png);
+  background-image: url(../../img/toolbar.png);
   background-position: -612px -3px;
   background-repeat: no-repeat;
 }

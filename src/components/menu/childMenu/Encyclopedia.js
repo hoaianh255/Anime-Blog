@@ -1,4 +1,5 @@
 import React from 'react';
+import './encyclopedia.css';
 import PropTypes from 'prop-types';
 
 const Encyclopedia = props => {

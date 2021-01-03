@@ -1,4 +1,5 @@
 import React,{Fragment} from 'react';
+import  './newsCpn.css';
 function NewsItem(props){
     return (
       <Fragment>

@@ -1,7 +1,13 @@
-import React, { useState, useEffect } from "react";
-import Logo from "../img/logo.name.no-dot.png";
-import {FaFacebookSquare,FaTwitterSquare,FaYoutubeSquare,FaInstagramSquare,FaGithubSquare} from "react-icons/fa";
-
+import React, { useState } from "react";
+import Logo from "../../img/logo.name.no-dot.png";
+import  './navbar.css'
+import {
+  FaFacebookSquare,
+  FaTwitterSquare,
+  FaYoutubeSquare,
+  FaInstagramSquare,
+  FaGithubSquare,
+} from "react-icons/fa";
 function Navbar() {
   const [locale, showLocale] = useState(false);
 
@@ -16,10 +22,10 @@ function Navbar() {
         </div>
         <div
           className="navbar__button dropdown"
-          onClick={()=> showLocale(!locale)}
+          onClick={() => showLocale(!locale)}
         >
           <button type="button">
-            World <span>&#x25BC;</span>
+            Southeast Asia <span>&#x25BC;</span>
           </button>
           <ul
             className="navbar_locale_show"
@@ -47,27 +53,31 @@ function Navbar() {
         </div>
         <div className="navbar__icon_social">
           <a href="#">
-            <FaFacebookSquare/>
+            <FaFacebookSquare />
           </a>
           <a href="#">
-            <FaYoutubeSquare/>
+            <FaYoutubeSquare />
           </a>
           <a href="#">
-            <FaTwitterSquare/>
+            <FaTwitterSquare />
           </a>
           <a href="#">
-            <FaInstagramSquare/>
+            <FaInstagramSquare />
           </a>
           <a href="#">
-            <FaGithubSquare/>
+            <FaGithubSquare />
           </a>
-          
         </div>
       </div>
       {/*Box right (input search )*/}
       <div className="navbar__right">
         <form action="" className="navbar__form_search">
-          <input type="text" name="navbar__search" />
+          <input
+            type="text"
+            name="navbar__search"
+            placeholder="Search"
+            className="p-2"
+          />
           <button className="navbar__button">
             <i className="fas fa-search" />
           </button>
