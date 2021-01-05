@@ -9,7 +9,7 @@
   list-style-type: none;
 }
 
-#topMenu #topMenu_nav li {
+#topMenu #topMenu_nav li a{
   display: inline-block;
   padding: 8px 12px;
   cursor: pointer;
@@ -37,11 +37,11 @@
 }
 .downEffect {
   background: #3399cc;
-  transition: max-height .5s, visibility .2s;
+  transition: max-height .2s, visibility .2s;
 }
 .upEffect {
   background: #3399cc;
-  transition: max-height .5s, visibility .2s;
+  transition: max-height .2s, visibility .2s;
 }
 
 /* Login and register */

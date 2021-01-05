@@ -5,7 +5,6 @@ import  './banner.css';
 const ItemSlide = React.lazy(() => import('./ItemSlide'));
 function Banner() {
     const [indexSlide,setIndexSlide] = useState(0);
-    const slideIndex = dataSlide[indexSlide];
     const checkIndex = (index) => {
         if(index > dataSlide.length - 1){
             return 0;
@@ -39,7 +38,11 @@ function Banner() {
         <div id='banner'>
         {/*    slide*/}
         <div className="banner__slide">
-            <ItemSlide key={slideIndex.id} value={slideIndex}/>
+            {dataSlide.map((val,index) => {
+                return (
+                  <ItemSlide key={index} indexSlide={indexSlide}  value={val}  />
+                )
+            })}
             <button onClick={(e) => prevSlide()}  className="act-slide"><i className="fas fa-chevron-left"/></button>
             <button onClick={(e) => nextSlide()} className="act-slide right"><i className="fas fa-chevron-right"/></button>
         </div>

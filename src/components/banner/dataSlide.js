@@ -17,7 +17,7 @@ export const dataSlide = [
   },
   {
     id:3,
-    imgUrl: 'https://images.hdqwalls.com/download/saiyan-girl-on-dark-city-4k-zc-1920x1080.jpg',
+    imgUrl: 'https://cdn.animenewsnetwork.com/images/cms/interest.2/167709/nenga_2021pc.jpg',
     title: "The Magnificent Grand Scene GN 1 & 2",
     description: "If you love Princess Tutu and miss CMX's release of Swan, you owe it to yourself to pick up MediaDo's digital-only release of Cuvie's The Magnificent Grand Scene."
   },

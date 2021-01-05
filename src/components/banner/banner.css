@@ -17,8 +17,8 @@
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
 }
 @keyframes fadeInOpacity {
   0% {
@@ -45,38 +45,46 @@
 #banner .banner__slide .right {
   right: 0;
 }
-#banner .banner__slide .banner__image {
-  flex: 4;
-  display: flex;
-  height: 350px;
+#banner .banner__slide .item__slide{
   position: relative;
+  height: 500px;
+}
+#banner .banner__slide .item__slide .banner__image {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  top: 0;
+  left: 0;
   background-size: 100%;
   transition: background-position 4s ease-in-out;
 }
 
-#banner .banner__slide .banner__fadeBottom {
+
+#banner .banner__slide .item__slide .banner__description {
   position: absolute;
-  right: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-size: 100%;
-  background-image: linear-gradient(to left,#ffffff 0%,rgba(255,255,255,0.4) 4%,rgba(255,255,255,0) 10%,rgba(255,255,255,0) 100%);
-  /*background: darkblue;*/
-}
-#banner .banner__slide .banner__description {
+  left: 0;
   flex: 1;
+  width: 30%;
   display: flex;
   flex-direction: column;
   padding: 10px 8px;
   justify-content: flex-end;
-  background-image: radial-gradient(ellipse farthest-side at bottom right,rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.6) 60%,rgba(255,255,255,0) 100%);
+  height: 100%;
   color: #000000;
   max-height: 350px;
+  background-image: linear-gradient(to right,#ffffff 0%,rgba(255,255,255,0.4) 40%,rgba(255,255,255,0) 80%,rgba(255,255,255,0) 100%);
+  /*background: darkblue;*/
 }
-#banner .banner__slide .banner__description .title {
+#banner .banner__slide .item__slide .banner__description .title {
   font-weight: 700;
   font-size: 1.4rem;
   color: #000000;
+  text-shadow: 3px 3px 5px #ffffff;
+}
+#banner .banner__slide .item__slide .banner__description .description {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000000;
+  text-shadow: 3px 3px 5px #ffffff;
 }
